@@ -64,15 +64,15 @@ body {
 }
 .section {
     display: flex;
- 
+    flex-direction: column;
     justify-content: center;
     background-image: url('../images/header-bg.png') ;
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
     border-radius: 30px;
     background-repeat: no-repeat;
     padding-bottom: 138px;
-    height: 100vh;
+    height: 865px;
     
 }
 .img1 {
